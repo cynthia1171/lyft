@@ -1,3 +1,291 @@
 /*
  * Estilos de tu proyecto
  */
+
+ body{
+ 	width: 99.4%;
+ 	margin-left: 0px;
+ 	font-family: 'Monserrat', sans-serif;
+ }
+
+ a{
+ 	text-decoration: none;
+ }
+
+ .text-uppercase{
+ 	text-transform: uppercase;
+ }
+
+ header{
+ 	width: 100%;
+ }
+
+ header #top{
+ 	background-image: url(../assets/images/hero.gif);
+ 	width: auto;
+    height: 602px;
+    background-size: 100%;
+    margin-top: -110px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-size: 100%;
+ }
+
+
+header #sobre{
+	width: auto;
+	height: 96px;
+	position: relative;
+	background: linear-gradient(transparent,#76278f);
+	margin-top: -97px;
+}
+
+ nav{
+ 	position: fixed;
+ 	margin-top: 102px;
+    width: 100%;
+    padding-left: 8px;
+    background:linear-gradient(rgba(46, 18, 68, 0.6),transparent );
+    z-index: 100;
+ }
+
+ nav img{
+ 	display: inline-block;
+ 	width: 85px;
+    height: 57px;
+    padding-left: 73px;
+    padding-top: 35px;
+
+ }
+
+#menu{
+ 	float: right;
+ 	padding-top: 34px;
+ 	margin-right: 170px;
+ }
+
+#menu a{
+ 	display: inline-block;
+	color: #fff;
+	padding-right: 44px;
+    margin-left: -11px;
+    font-size: 1.125em;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ .icon-chevron-thin-down:before {
+  content: "\e901";
+  padding-left: 6px;
+}
+
+#menu button{
+ 	width: 90px;
+ 	height: 50px;
+ 	background-color: transparent;
+ 	color: #fff;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 1.3em;
+	font-weight: 300;
+ 	border-radius: 5px;
+ }
+
+#slider{
+ 	width: 544px;
+ 	height: 410px;
+ 	background-color: #fff;
+ 	margin-left: 775px;
+    position: absolute;
+    margin-top: 219px;
+    z-index: 100;
+    color: #352384;
+    line-height: 1.1;
+ }
+
+#slider #texto{
+	width: 395px;
+	height: 200px;
+	font-family: 'Monserrat', sans-serif;
+	font-weight: 700;
+	padding-left: 65px;
+    padding-top: 67px;
+}
+
+#slider #texto h1{
+	display: block;
+	margin-left: 1px;
+}
+
+#slider #texto h1, h2{
+ 	font-size: 2.6rem;
+ 	margin: 0;
+ 	line-height: 39px;
+ }
+
+ #slider #texto p{
+ 	margin-top: 0.5rem;
+ }
+
+ #slider #texto input{
+ 	width: 395px;
+ 	border: none;
+ 	border-bottom: 1px solid #352384;
+ 	padding-bottom: 20px;
+ }
+
+#slider #texto2{
+	margin-left: 65px;
+}
+
+#slider #texto2 button{
+	display: inline-block;
+	width: 170px;
+	height: 50px;
+	background-color: #ff00bf;
+	color: #fff;
+	font-weight: 700;
+    border-radius: 11px;
+    border: none;
+    font-size: 17px;
+    margin-right: 24px;
+}
+
+#slider #texto2 a{
+	color: #728099;
+	text-decoration: underline;
+}
+
+#slider #texto2 a:hover{
+	color: #b30086;
+}
+
+#slider #texto2 div{
+	padding-top: 25px;
+}
+
+#slider #texto2 p{
+	color: #728099;
+	font-size: .6rem;
+}
+
+#slider #texto2 span{
+	color: #b30086;
+	font-size: .6rem;
+}
+
+#slider #texto2 span:hover{
+	text-decoration: underline;
+}
+
+ #seccion-1{
+ 	width: auto;
+ 	height: 800px;
+ 	background: linear-gradient(#76278f,#2b1e66);
+ 	margin-left: -8px;
+ 	margin-right: -8px;
+ 	margin-top: 0px;
+ }
+
+ #text-one{
+ 	margin-top: 81px;
+ 	display: inline-block;
+ }
+
+#text-one h3{
+	font-weight: 700;
+	font-size: 1.75rem;
+	line-height: 8px;
+	font-weight: 300;
+}
+
+ #text-one div{
+ 	padding-top: 135px;
+ 	padding-left: 186px;
+ 	color: #fff;
+ 	width: 450px;
+ 	font-size: 17px;
+ }
+
+ #text-one .margin-div{
+ 	margin-top: -95px;
+ }
+
+ #text-two{
+ 	display: inline-block;
+ 	background-image: url(../assets/images/phone.png);
+ 	width: 502px;
+ 	height: 533px;
+ 	background-size: 100%;
+ 	margin-bottom: -77px;
+    margin-left: 52px;
+ }
+
+#videodiv1{
+	width: 100%;
+	height: 500px;
+}
+#videodiv1 #texto1{
+	width: 300px;
+	margin-left: 55px;
+}
+
+#texto #top1{
+	font-size: 11px;
+    font-weight: 700;
+}
+
+#videodiv1 #video1{
+	float: right;
+	margin-top: -201px;
+    margin-right: -8px;
+} 
+
+#videodiv2{
+	width: 100%;
+	height: 500px;
+	margin-top: -19px;
+}
+
+#videodiv2 #texto2{
+	float: right;
+	width: 300px;
+}
+
+#videodiv2 #video2{
+	float: left;
+	margin-top: -20px;
+	margin-left: -8px;
+}
+
+#videodiv3{
+	width: 100%;
+	height: 500px;
+
+}
+#videodiv3 #texto3{
+	width: 300px;
+	margin-left: 55px;
+}
+
+#texto #top1{
+	font-size: 11px;
+    font-weight: 700;
+}
+
+#videodiv3 #video3{
+	float: right;
+	margin-top: -201px;
+    margin-right: -8px;
+} 
+
+footer{
+	background-color: #333447;
+	width: auto;
+	height: 500px;
+	margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+footer table td{
+	color: #fff;
+}

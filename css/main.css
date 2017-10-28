@@ -2,12 +2,15 @@
  * Estilos de tu proyecto
  */
 
+/*------estilo del body---------------*/
  body{
  	width: 99.4%;
  	margin-left: 0px;
  	font-family: 'Monserrat', sans-serif;
  }
 
+
+/*----estilos reutilizados-----*/
  a{
  	text-decoration: none;
  }
@@ -16,6 +19,7 @@
  	text-transform: uppercase;
  }
 
+/*-----estilo del header---------*/
  header{
  	width: 100%;
  }
@@ -73,6 +77,10 @@ header #sobre{
     font-family: 'Montserrat', sans-serif;
  }
 
+ #menu a:hover{
+ 	color: #ff00bf;
+ }
+
  .icon-chevron-thin-down:before {
   content: "\e901";
   padding-left: 6px;
@@ -89,6 +97,7 @@ header #sobre{
  	border-radius: 5px;
  }
 
+/* seccion slider*/
 #slider{
  	width: 544px;
  	height: 410px;
@@ -176,6 +185,7 @@ header #sobre{
 	text-decoration: underline;
 }
 
+/*seccion con informacion de lyft*/
  #seccion-1{
  	width: auto;
  	height: 800px;
@@ -219,10 +229,23 @@ header #sobre{
     margin-left: 52px;
  }
 
+ .mod-span{
+ 	font-size: 10px;
+ 	font-weight: 700;
+
+ }
+
+/*seccion con primer video*/
 #videodiv1{
 	width: 100%;
 	height: 500px;
+	margin-top: 18px;
 }
+
+#videodiv1 h3{
+	margin-top:0px;
+}
+
 #videodiv1 #texto1{
 	width: 300px;
 	margin-left: 55px;
@@ -239,15 +262,21 @@ header #sobre{
     margin-right: -8px;
 } 
 
+/*seccion con segundo video*/
 #videodiv2{
 	width: 100%;
 	height: 500px;
-	margin-top: -19px;
+	margin-top: -38px;
+}
+
+#videodiv2 h3{
+	margin-top:0px;
 }
 
 #videodiv2 #texto2{
 	float: right;
 	width: 300px;
+	padding-top: 32px;
 }
 
 #videodiv2 #video2{
@@ -256,14 +285,21 @@ header #sobre{
 	margin-left: -8px;
 }
 
+/*seccion con tercer video*/
 #videodiv3{
 	width: 100%;
 	height: 500px;
-
+	margin-top: 18px;
 }
+
+#videodiv3 h3{
+	margin-top:0px;
+}
+
 #videodiv3 #texto3{
 	width: 300px;
 	margin-left: 55px;
+	padding-top: 32px;
 }
 
 #texto #top1{
@@ -277,11 +313,12 @@ header #sobre{
     margin-right: -8px;
 } 
 
+/*estilos del footer*/
 footer{
 	background-color: #333447;
 	width: auto;
-	height: 500px;
-	margin-top: -20px;
+	height: 600px;
+	margin-top: -38px;
     margin-left: -8px;
     margin-right: -8px;
     font-family: 'Monserrat', sans-serif;
@@ -294,7 +331,7 @@ footer h4{
 }
 
 footer table tr td{
-	color: #fff;
+	color: #f3f3f5;
 	padding-left: 147px;
 	line-height: 45px;
 	font-size: 18px;
@@ -305,6 +342,11 @@ footer li{
 	list-style: none;
 }
 
+footer li:hover{
+	text-decoration: underline;
+	color: #ff00bf;
+}
+
 footer table td img{
 	width: 135px;
 	height: 40px;
@@ -312,16 +354,28 @@ footer table td img{
 	padding-top: 38px;
 }
 
+footer #rrss{
+	text-align: center;
+    padding-top: 60px;
+    margin-right: 60px;
+}
+
+footer hr{
+	width: 690px;
+    margin-left: 320px;
+    margin-top: 32px;
+}
+
 footer #rrss div{
 	width: 40px;
 	height: 40px;
 	border-radius: 100%;
-	border: 1px solid #fff;
+	border: 1px solid #f3f3f5;
 	text-align: center;
-	color: #fff;
+	color: #f3f3f5;
   	font-size: 20px;
   	display: inline-block;
-  	margin-left: 80px;
+  	margin-left: 60px;
 }
 
 .icon-social-facebook:before {
@@ -337,4 +391,18 @@ footer #rrss div{
 .icon-twitter:before {
   content: "\e902";
   line-height: 40px;
+}
+
+footer #info{
+	text-align: center;
+	color: #f3f3f5;
+	margin-top: 71px;
+}
+
+footer #info a{
+	color: #f3f3f5;
+}
+
+footer #info a:hover{
+	color: #ff00bf;
 }
